@@ -91,7 +91,8 @@ public class DataManager : MonoBehaviour
     {
         gameDatas = new GameData(100, 300, 5f);
 
-        gameDatas.monsterKillDatas.Add(new MonsterData(1, "박도일", 2f, 1f, "일찍옴")); gameDatas.monsterKillDatas.Add(new MonsterData(2, "미래의 박도일", 2f, 1f, "내일 안옴"));
+        gameDatas.monsterKillDatas.Add(new MonsterData(1, "박도일", 2f, 1f, "일찍옴"));
+        gameDatas.monsterKillDatas.Add(new MonsterData(2, "미래의 박도일", 2f, 1f, "내일 안옴"));
     }
 
     public void SaveGameData()
